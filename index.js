@@ -28,34 +28,9 @@ client.on('message', message => {
 	
 if(command === 'help') {
     message.channel.send({embed: {
-    color: 3447003,
-    author: {
-      name: client.user.username,
-      icon_url: client.user.avatarURL
-    },
-    title: "Help",
-    url: "http://google.com",
-    description: "Commands",
-    fields: [{
-        name: "Fun",
-        value: "Tickle Cuddle Pat Hug Poke Kiss"
-      },
-      {
-        name: "Mod",
-        value: "Moderation  [commands](http://google.com) Yuki."
-      },
-      {
-        name: "Other",
-        value: "Additional *Commands * **__in developing__** write your idea."
-      }
-    ],
-    timestamp: new Date(),
-    footer: {
-      icon_url: client.user.avatarURL,
-      text: "© Example"
-    }
-  }
-});
+  color: 3447003,
+  description: "me to die"
+}});
     if(command === 'embed') {
       if (!message.author.id === '514403823184248833' || !message.author.id === '361951318929309707') return message.channel.send('nuu')
       try {
