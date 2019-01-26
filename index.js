@@ -33,26 +33,26 @@ if(command === 'help') {
       name: client.user.username,
       icon_url: client.user.avatarURL
     },
-    title: "Yuki Help",
+    title: "Help",
     url: "http://google.com",
-    description: "This is a test embed to showcase what they look like and what they can do.",
+    description: "Commands",
     fields: [{
         name: "Fun",
-        value: "tickle, cuddle, pat, hug, poke, kiss, kill, sex"
+        value: "Tickle Cuddle Pat Hug Poke Kiss"
       },
       {
         name: "Mod",
-        value: "ban, Kick, info, profile"
+        value: "Moderation  [commands](http://google.com) Yuki."
       },
       {
         name: "Other",
-        value: "play, pick, up"
+        value: "Additional *Commands * **__in developing__** write your idea."
       }
     ],
     timestamp: new Date(),
     footer: {
       icon_url: client.user.avatarURL,
-      text: "Yuki Server"
+      text: "© Example"
     }
   }
 });
