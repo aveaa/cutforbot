@@ -24,13 +24,7 @@ client.on('message', message => {
     const args = message.content.slice(prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();	
     const Discord = require('discord.js')
-
-	
-if(command === 'help') {
-    message.channel.send({embed: {
-  color: 3447003,
-  description: "me to die"
-}});
+    
     if(command === 'embed') {
       if (!message.author.id === '514403823184248833' || !message.author.id === '361951318929309707') return message.channel.send('nuu')
       try {
