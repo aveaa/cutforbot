@@ -33,11 +33,20 @@ if(command === 'help') {
       name: client.user.username,
       icon_url: client.user.avatarURL
     },
-    title: "Команды Yuki",
-    url: "https://osu.ppy.sh/",
-    description: "Дополнительная информация: [{
-        name: "Fun:",
-        value: "tickle cuddle pat hug poke kiss"
+    title: "Yuki Help",
+    url: "http://google.com",
+    description: "This is a test embed to showcase what they look like and what they can do.",
+    fields: [{
+        name: "Fun",
+        value: "tickle, cuddle, pat, hug, poke, kiss, kill, sex"
+      },
+      {
+        name: "Mod",
+        value: "ban, Kick, info, profile"
+      },
+      {
+        name: "Other",
+        value: "play, pick, up"
       }
     ],
     timestamp: new Date(),
@@ -47,7 +56,6 @@ if(command === 'help') {
     }
   }
 });
-}
     if(command === 'embed') {
       if (!message.author.id === '514403823184248833' || !message.author.id === '361951318929309707') return message.channel.send('nuu')
       try {
