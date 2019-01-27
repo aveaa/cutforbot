@@ -5,7 +5,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
 
 console.log(client.user.username+ ' is ready!')
-client.user.setActivity(`${client.users.size} участников!`,{type: 'STREAMING', url: 'https://www.twitch.tv/mr_revolier'})
+client.user.setActivity(`${client.users.size} участников! | y!help `,{type: 'STREAMING', url: 'https://www.twitch.tv/mr_revolier'})
   console.log(`https://discordapp.com/oauth2/authorize?&client_id=${client.user.id}&scope=bot&permissions=8 `)
 })
 let owners = new Set()
